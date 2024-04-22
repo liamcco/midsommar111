@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className="mt-8 text-center max-w-[30ch] lg:mt-16 lg:mb-0 lg:w-full lg:max-w-5xl">
         <p className="mb-8 text-lg opacity-70">
-          Hjärtligt välkomna till årets största midsommarfest i Gundrabol! 🌸
+          Hjärtligt välkomna till årets största midsommarfest i Gunrabol! 🌸
         </p>
         <h1 className="text-3xl font-semibold">Midsommar 2024</h1>
         <a
