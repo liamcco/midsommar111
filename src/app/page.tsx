@@ -35,7 +35,7 @@ export default function Home() {
       </div>
 
       <div className="my-4">
-        <a className="text-blue-500 dark:text-blue-300" href="/karta">
+        <a className="text-blue-500 dark:text-blue-300" href="karta.pdf">
           <p className="font-bold text-xl">~event-kartan~</p>
         </a>
       </div>
