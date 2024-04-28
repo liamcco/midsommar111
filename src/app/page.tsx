@@ -17,16 +17,16 @@ export default function Home() {
 
       <div className="mt-8 text-center max-w-[30ch] lg:mt-16 lg:mb-0 lg:w-full lg:max-w-5xl">
         <p className="mb-8 text-lg opacity-70">
-          Hjärtligt välkomna till årets största midsommarfest i Gunrabol! 🌸
+          Hjärtligt välkomna till årets mest eftertraktade midsommarfest! 🌸
         </p>
         <h1 className="text-3xl font-semibold">Midsommar 2024</h1>
         <a
           className="transition-colors hover:text-blue-500 dark:hover:text-blue-300"
-          href="https://maps.app.goo.gl/chQUkfVeb9wiXGTF8"
+          href=""
           target="_blank"
         >
           <p className="text-lg opacity-70 italic">
-            Gunrabol 111, 662 91 Åmål{" "}
+            Edsgatan 12, 662 30 Åmål{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -42,18 +42,18 @@ export default function Home() {
 
       <div className="mb-8 mt-4 grid text-justify lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left">
         <p className="mb-4 max-w-[30ch] text-sm opacity-50">
-          Vi välkomnar till festligheter från kl. 19:00. Under kvällen kommer vi
+          Vi välkomnar till festligheter från kl. 18:00. Under kvällen kommer vi
           att ha en bar med ett brett sortiment, där du kan beställa drinkar
           till ett förmånligt pris.
         </p>
         <p className="mb-4 max-w-[30ch] text-sm opacity-50">
-          Det är också möjigt att förboka tillgång till gunrabols egna grill,
-          som kommer att vara öppen under hela kvällen. Där kan du beställa
+          Det är också möjigt att förboka tillgång till husets egna grill, som
+          kommer att vara öppen under hela kvällen. Där kan du beställa
           hamburgare, korv och annat gott som du kan grilla själv.
         </p>
         <p className="mb-4 max-w-[30ch] text-sm opacity-50">
-          Det rekommenderade transportmedlet är cykel, då vi ämnar att bli fulla
-          som ägg. För mer information om festen, se nedan.
+          Det rekommenderade transportmedlet är promenad eller cykel, då vi
+          ämnar att bli fulla som ägg. För mer information om festen, se nedan.
         </p>
       </div>
 
@@ -69,7 +69,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Läs mer om GB-grillen och förboka ditt käk här!
+            Läs mer om husets grill och förboka ditt käk här!
           </p>
         </a>
 
@@ -84,7 +84,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Upptäck Gunrabols lokala bar och utforska vårt sortiment.
+            Upptäck den lokala baren och utforska vårt sortiment.
           </p>
         </a>
 

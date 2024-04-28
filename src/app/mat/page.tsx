@@ -8,8 +8,7 @@ export default function Page() {
         <div className="rounded-lg border border-transparent px-5 py-4">
           <h2 className="mb-3 text-2xl font-semibold">Mat </h2>
           <p className="text-sm opacity-50">
-            Detaljerad information om GB-grillen, sponsrad av Dante Tjus
-            Catering
+            Detaljerad information om grillen, sponsrad av Dante Tjus Catering
           </p>
         </div>
 
@@ -18,9 +17,7 @@ export default function Page() {
           id="dryck"
         >
           <h2 className="mb-3 text-2xl font-semibold">Dryck </h2>
-          <p className="text-sm opacity-50">
-            Detaljerad information om GB-baren
-          </p>
+          <p className="text-sm opacity-50">Detaljerad information om baren</p>
         </div>
         <div
           className="rounded-lg border border-transparent px-5 py-4"
