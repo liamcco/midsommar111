@@ -7,7 +7,7 @@ export default function Page() {
         <div className="py-4 flex flex-col items-center gap-2" id="liam">
           <Image
             className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] rounded-xl"
-            src="/liam5.jpg"
+            src="/liam.jpg"
             alt="Liam"
             width={300}
             height={37}
@@ -22,7 +22,7 @@ export default function Page() {
         <div className="py-4 flex flex-col items-center gap-2" id="dante">
           <Image
             className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] rounded-xl"
-            src="/dante3.jpg"
+            src="/dante.jpg"
             alt="Dante"
             width={300}
             height={37}
