@@ -24,10 +24,10 @@ export default function RootLayout({
         ></link>
       </head>
       <body className={inter.className}>
-        <main className="flex min-h-screen flex-col items-center justify-between px-12 pt-24 lg:p-0">
+        <div className="flex min-h-screen flex-col items-center justify-between px-12 pt-4 lg:p-0">
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <a href="/">
-              <p className="fixed left-0 top-0 flex w-full justify-center backdrop-blur-2xl blurred dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:p-4">
+              <p className="flex w-full justify-center dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:p-4">
                 <Image
                   src="/midsommarfest.svg"
                   alt="midsommarfest"
@@ -56,8 +56,8 @@ export default function RootLayout({
               </a>
             </div>
           </div>
-          {children}
-        </main>
+          <>{children}</>
+        </div>
       </body>
     </html>
   );
