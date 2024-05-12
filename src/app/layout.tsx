@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Midsommar i Gundrabol",
-  description: "Det största midsommarfirandet i Gundrabol!",
+  title: "Midsommar på Edsgatan",
+  description: "Fira med oss!",
 };
 
 export default function RootLayout({
