@@ -27,9 +27,9 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col items-center justify-between px-12 pt-4 lg:p-0">
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <a href="/">
-              <p className="flex w-full justify-center dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:p-4">
+              <p className="mt-4 flex w-full justify-center dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:p-4">
                 <Image
-                  src="/midsommarfest.svg"
+                  src="/midsommarfest.png"
                   alt="midsommarfest"
                   className="dark:invert"
                   width={350}
@@ -44,12 +44,12 @@ export default function RootLayout({
                 href="/"
                 rel="noopener noreferrer"
               >
-                Midsommar i{" "}
+                Midsommar på{" "}
                 <Image
-                  src="/gunrabol.svg"
+                  src="/edsgatan.png"
                   alt="Vercel Logo"
                   className="dark:invert"
-                  width={150}
+                  width={100}
                   height={24}
                   priority
                 />
