@@ -8,7 +8,7 @@ export default function Home() {
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] rounded-xl"
             src="/midsommar.gif"
-            alt="Next.js Logo"
+            alt="midsommar"
             width={180}
             height={37}
             priority
@@ -35,20 +35,14 @@ export default function Home() {
               </p>
             </a>
           </div>
-
-          <div className="my-4 text-center">
-            <a className="text-blue-500 dark:text-blue-300" href="karta.pdf">
-              <p className="font-bold text-xl">~event-kartan~</p>
-            </a>
-          </div>
         </div>
       </div>
 
       <div className="mt-4 grid text-justify lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left">
         <p className="mb-4 max-w-[30ch] text-sm opacity-50 mx-auto">
-          Vi välkomnar till festligheter från kl. 18:00. Under kvällen kommer vi
-          att ha en bar med ett brett sortiment, där du kan beställa drinkar
-          till ett förmånligt pris.
+          Vi välkomnar till festligheter från kl. [insert starttid]. Under
+          kvällen kommer vi att ha en bar med ett brett sortiment, där du kan
+          beställa drinkar till ett förmånligt pris.
         </p>
         <p className="mb-4 max-w-[30ch] text-sm opacity-50 mx-auto">
           Det är också möjigt att förboka tillgång till husets egna grill, som
